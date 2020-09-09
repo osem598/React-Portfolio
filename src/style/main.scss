@@ -1,28 +1,25 @@
-html {
-    font-size: 62.5%; // 1rem is 10px
-}
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./base.scss";
+@import "./button.scss";
+@import "./grid.scss";
+@import "./navigation.scss";
+@import "./portfolio.scss";
+@import "./auth.scss";
+@import "./portfoliomanager.scss";
+@import "./portfoliosidebar.scss";
+@import "./portfolio-form.scss";
+@import "./forms.scss";
+@import "./blog.scss";
+@import "./loaders.scss";
+@import "./blog-form.scss";
+@import "./modal.scss";
+@import "./react-draft-wysiwyg.scss";
+@import "./rich-text-editor.scss";
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'montserrat';
-}
 
-body {
-    overflow-x: hidden;
-    font-weight: normal;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
-}
+// font-family: 'Lobster', cursive;
+// font-family: 'Luckiest Guy', cursive;
+// font-family: 'Monoton', cursive;
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
