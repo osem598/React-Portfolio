@@ -1,0 +1,61 @@
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-family: 'Luckiest Guy', cursive;
+
+
+    .right-side{
+        a{
+            margin-left: 15px;
+            cursor: pointer;
+            color: orangered;
+            transition: 0.5s ease-in-out;
+        }
+        a:hover{
+            color:orange;
+        }
+    }
+
+
+    .left-side{
+        display: flex;
+       
+    }
+    .nav-link-wrapper{
+        height: 22px;
+        border-bottom: 2px solid transparent;
+        transition:1.05s ease-in-out;
+        margin-right: 20px;
+        text-transform: uppercase;
+        font-size: 0.9em;
+
+
+
+       
+
+
+        a{
+            color: $grey;
+            text-decoration: none;
+            &:hover{
+                color:black; 
+            }
+    
+
+        }
+
+        &:hover{
+            border-bottom: 2px solid orangered;
+            
+        }
+
+
+
+        .nav-link-active{
+            border-bottom:5px solid orangered;
+            color:black;
+        }
+
+    }
+}

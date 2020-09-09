@@ -1,0 +1,28 @@
+.DraftEditor-root{
+    border: 2px solid darkorange;
+    padding: 20px;
+    height: 120px;
+    border-radius: 5px;
+
+    &:focus-within{
+        border:2px solid orangered;
+    }
+}
+
+.image-uploaders{
+    @include base-grid();
+    grid-template-columns: 200px;
+    text-align: center;
+}
+
+.rdw-image-modal{
+    left:-215px;
+}
+
+.rdw-emoji-modal{
+    left:-169px;
+}
+
+.rdw-embedded-modal{
+    left:-124px;
+}
